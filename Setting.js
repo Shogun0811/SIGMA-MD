@@ -58,8 +58,9 @@ global.maher_api = process.env.MAHER_API || `https://api.maher-zubair.tech/` ; /
 
 
 //===========================[COMPULSORY VARIABLES]================================
-global.owner = process.env.OWNER_NUMBER  || '923466319114' ;  // ADD YOUR NUMBER WITHOUT +
-global.mongodb = process.env.MONGODB_URI || "" ;            // PUT MONGODB KEY HERE, WITHOUT MONGODB YOUR BOT WILL NOT RUN
+global.owner = process.env.OWNER_NUMBER  || '221760263631' ;  // ADD YOUR NUMBER WITHOUT +
+global.mongodb = process.env.MONGODB_URI || "
+mongodb+srv://mohsin:mohsin@cluster0.iauaztt.mongodb.net/?retryWrites=true&w=majority" ;            // PUT MONGODB KEY HERE, WITHOUT MONGODB YOUR BOT WILL NOT RUN
 global.timezone  = process.env.TIME_ZONE || 'Asia/Karachi' // ADD CORRECT TIMEZONE OR LEAVE IT SAME , OTHERWISE YOU GET ERROS
 //=================================================================================
 
@@ -75,11 +76,11 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/03e49e6
 module.exports = {
 
   //==============================[COMPULSORY]=====================================
-  sessionName: process.env.SESSION_ID || '',              // PUT YOUR SESSION ID
-  botname: process.env.BOT_NAME       || 'sɪɢᴍᴀ-ᴍᴅ',         // ADD YOUR BOT NAME
+  sessionName: process.env.SESSION_ID || '09_07_2024_SIGMA_MD_JQg04XYm_MAHER_ZUBAIR',              // PUT YOUR SESSION ID
+  botname: process.env.BOT_NAME       || 'bicom Lab',         // ADD YOUR BOT NAME
   ownername:  process.env.OWNER_NAME  || `ᴍᴀʜᴇʀ ᴢᴜʙᴀɪʀ`, // ADD YOUR NAME
-  HANDLERS: process.env.PREFIX        || '.',              // ADD YOUR BOT PREFIX
-  WORKTYPE: process.env.WORKTYPE      || 'public',      // IF PRIVATE ONLY YOU CAN USE YOUR BOT, IF PUBLIC EVERYONE CAN USE YOUR BOT
+  HANDLERS: process.env.PREFIX        || '¥',              // ADD YOUR BOT PREFIX
+  WORKTYPE: process.env.WORKTYPE      || 'private',      // IF PRIVATE ONLY YOU CAN USE YOUR BOT, IF PUBLIC EVERYONE CAN USE YOUR BOT
   //================================================================================
 
 
@@ -103,7 +104,7 @@ module.exports = {
   antilink_values: process.env.ANTILINK_VALUES || 'https://,chat.whatsapp.com,youtube.com,instagram.com,tiktok.com,vt.tiktok.com,wa.me,facebook.com', // ANTILINKS VALUES, IT WILL TAKE ACTION WHO SEND THESE LINKS
   promote_demote_messages : process.env.PROMOTE_DEMOTE_MESSAGES || 'false' ,     // IF TRUE IT WILL SEND AN ALERT MESSAGE WHEN SOMEONE PROMOTED/DEMOTED IN GROUPS
   antibadwords_values: process.env.ANTI_BAD_WORDS || 'Fuck,porn,sex,xxx,fucker,asshole,fuck you,fuck off',   // IT WILL TAKES ACTIONS WHO SENDS THESE BAD WORDS
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'' ,    // ADD YOUR OPEN AI KEY IF YOU HAVE
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'sk-proj-tRVHYrvKyGfFsZCDsfXlT3BlbkFJyWVFHrbQCeUWCefRGm6x' ,    // ADD YOUR OPEN AI KEY IF YOU HAVE
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY   || "1YueQDSbfnexBFK9ai86T1JX",    // ADD YOUR REMOVE BG KEY IF YOU HAVE
   //=================================================================================
 
